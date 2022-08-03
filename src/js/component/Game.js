@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Board from "./Board";
 import { calculateWinner } from "../helper";
 
+
 const Game = () => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [stepNumber, setStepNumber] = useState(0);
@@ -42,8 +43,6 @@ const Game = () => {
       <h1><b>Tic Tac Toe</b></h1>
       <h3>{winner ? "Winner: " + winner : "Next Player: " + xO}</h3>
       <Board squares={history[stepNumber]} onClick={handleClick} />
-      <div className="info-wrapper">
-      </div>
     </>
   );
 };

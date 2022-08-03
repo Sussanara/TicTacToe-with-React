@@ -39,14 +39,10 @@ const Game = () => {
 
   return (
     <>
-      <h1>Tic Tac Toe</h1>
+      <h1><b>Tic Tac Toe</b></h1>
+      <h3>{winner ? "Winner: " + winner : "Next Player: " + xO}</h3>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">
-        <div>
-          <h3>History</h3>
-          {renderMoves()}
-        </div>
-        <h3>{winner ? "winner: " + winner : "Next Player: " + xO}</h3>
       </div>
     </>
   );

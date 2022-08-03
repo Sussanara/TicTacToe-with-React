@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(73, 71, 71);
+  background-color: rgb(190, 190, 190);
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -22,8 +22,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #200669;
-  background: #200669;
+  border: 1rem solid #fdfdfd;
+  background: #fdfdfd;
   width: 500px;
   height: 500px;
   display: grid;
@@ -32,7 +32,7 @@ h1 {
 }
 
 .squares {
-  background: #383966;
+  background: #050505;
   border: none;
   font-size: 5rem;
   /* font-weight: 800; */
@@ -41,10 +41,10 @@ h1 {
 }
 
 .X {
-  color: red;
+  color: rgb(228, 212, 142);
 }
 .O {
-  color: green;
+  color: rgb(119, 162, 219);
 }
 
 .info-wrapper {

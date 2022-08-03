@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(73, 71, 71);
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -22,8 +22,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #ff652f;
-  background: #ff652f;
+  border: 1rem solid #200669;
+  background: #200669;
   width: 500px;
   height: 500px;
   display: grid;
@@ -32,7 +32,7 @@ h1 {
 }
 
 .squares {
-  background: #272727;
+  background: #383966;
   border: none;
   font-size: 5rem;
   /* font-weight: 800; */
